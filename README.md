@@ -40,15 +40,14 @@ thingsdb:
 ## Dry run
 
 Available checks:
-- `servers`
-- `series`
+- `nodes`
 
 Create a yaml file, for example _(test.yaml)_:
 
 ```yaml
 asset:
   name: "foo.local"
-  check: "servers"
+  check: "nodes"
 ```
 
 Run the probe with the `DRY_RUN` environment variable set the the yaml file above.
@@ -56,4 +55,3 @@ Run the probe with the `DRY_RUN` environment variable set the the yaml file abov
 ```
 DRY_RUN=test.yaml python main.py
 ```
-# thingsdb-probe

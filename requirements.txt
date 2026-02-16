@@ -1,0 +1,2 @@
+python-thingsdb==1.3.2
+libprobe==2.0.2
