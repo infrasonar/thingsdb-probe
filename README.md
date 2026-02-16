@@ -1,7 +1,7 @@
 [![CI](https://github.com/infrasonar/thingsdb-probe/workflows/CI/badge.svg)](https://github.com/infrasonar/thingsdb-probe/actions)
 [![Release Version](https://img.shields.io/github/release/infrasonar/thingsdb-probe)](https://github.com/infrasonar/thingsdb-probe/releases)
 
-# InfraSonar SiriDB Probe
+# InfraSonar ThingsDB Probe
 
 Documentation: https://docs.infrasonar.com/collectors/probes/thingsdb/
 
