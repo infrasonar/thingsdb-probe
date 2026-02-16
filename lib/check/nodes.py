@@ -45,7 +45,7 @@ class CheckNodes(Check):
             'counters_garbage_collected': node['garbage_collected'],
             'counters_largest_result_size': node['largest_result_size'],
             'counters_quorum_lost': node['quorum_lost'],
-            'counters_started_at': node['changes_with_gap'],
+            'counters_started_at': node['started_at'],
         } for node in nodes]
 
         state = {'nodes': items}
