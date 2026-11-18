@@ -1,0 +1,7 @@
+//
+// Creates a user in ThingsDB with a token for this collector.
+// Execute this script in the /thingsdb scope.
+//
+new_user('infrasonar');
+grant('/node', 'infrasonar', QUERY);
+new_token('infrasonar');  // this will return the token,
