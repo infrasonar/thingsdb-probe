@@ -4,4 +4,4 @@
 //
 new_user('infrasonar');
 grant('/node', 'infrasonar', QUERY);
-new_token('infrasonar');  // this will return the token,
+new_token('infrasonar');  // Returns the token.
